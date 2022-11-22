@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+}
+
+.navbar .logo {
+    width: 3rem;
+}
+
+.navbar .order{
+    background-color: #E8EFF2;
+    color: #162542;
+    width: 177px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Barlow', 'Helvetica', 'Arial', sans-serif;
+}
+
+
+.preOrder-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.info{
+    background-color: #FFFFFF;
+    width: 445px;
+    height: 312px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 26px;
+}
+
+.info .infotitle {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    color: #162542;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.image-keyboard img{
+    width: 540px;
+    height: 480px;
+    border-radius: 10px;
+}
+
+.box{
+    background-color: #E8EFF2;
+    width: 255px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.pre-order{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto 0 auto;
+}
+
+.Pre-order-now{
+    background-color: #F16718;
+    color: #FFFFFF;
+    width: 175px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.release-date{
+    color: #7B8BAD;
+}
+
+
+
