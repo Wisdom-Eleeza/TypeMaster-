@@ -142,7 +142,6 @@
 }
 
 .wireles-keyboard-text{
-    /* border: solid black 1px; */
     width: 400px;
     height: 400px;
     margin-top: 70px;
@@ -167,8 +166,121 @@
 /* DESCRIPTION */
 
 .description{
-    
+    display: flex;
+    justify-content: center;
 }
 
+/*svg-icon */
+.wireless-bluetooth{
+    width: 65px;
+    height: 65px;
+    border-radius: 16px;
+    background-color: #F16718;
+}
 
+.wireless-bluetooth img{
+    width: 17.68px;
+    height: 27.86px;
+    text-align: center;
+    /* background-color: #FFFFFF; */
 
+}
+    /*svg-icon */
+ .highly-compatible img {
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #F16718;
+}
+    /*svg-icon */
+ .capacity-battery img{
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #F16718;
+}
+    /*svg-icon */
+ .rgb-mode img{
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #F16718;
+}
+
+.highly-compatible-container{
+    width: 255px;
+    height: 323px;
+}
+
+.highly-compatible-container h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.highly-compatible-container p{
+    font-family: 'barlow-medium', sans-serif;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.wireless-bluetooth-container{
+    width: 255px;
+    height: 323px;
+    margin: 0px 0px 0px 30px;
+}
+
+.wireless-bluetooth-container h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 36;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.wireless-bluetooth-container p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.capacity-battery-container{
+    width: 255px;
+    height: 323px;
+    margin: 0px 0px 0px 30px;
+}
+
+.capacity-battery-container h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 36;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.capacity-battery-container p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.rgb-mode-container{
+    width: 255px;
+    height: 323px;
+    margin: 0px 0px 0px 30px;
+}
+
+.rgb-mode-container h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 36;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.rgb-mode-container p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    margin-top: 35px;
+}
