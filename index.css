@@ -6,6 +6,7 @@
 
 }
 
+    /* Navbar Design */
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -29,11 +30,14 @@
     font-family: 'Barlow', 'Helvetica', 'Arial', sans-serif;
 }
 
-
+    /* Typemaster Keyboard */
 .preOrder-container{
     display: flex;
-    justify-content: space-around;
-   
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    overflow: hidden;  
+
 }
 
 .info{
@@ -42,14 +46,21 @@
     height: 312px;
     font-family: 'Barlow', sans-serif;
     font-size: 26px;
+    margin: 0px 0px 50px 0px;
 }
 
-.info .infotitle {
+.info .infoTitle {
     font-family: 'Barlow', sans-serif;
     font-weight: 900;
     color: #162542;
     font-size: 56px;
     text-transform: uppercase;
+}
+
+.info p{
+    font-family: 'Barlow', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #7B8BAD;
 }
 
 .image-keyboard img{
@@ -63,6 +74,8 @@
     width: 255px;
     height: 240px;
     border-radius: 10px;
+    position: absolute;
+    right: -140px;
 }
 
 .pre-order{
@@ -83,6 +96,78 @@
 
 .release-date{
     color: #7B8BAD;
+}
+
+    /* Mechanical wireless keyboard */
+
+.wireless-keyboard-info{
+    display: flex;
+    display: space-around;
+    /* gap: 10px; */
+    position: relative;
+}
+
+.empty-box{
+    width: 255px;
+    height: 236px;
+    background-color: #E8EFF2;
+    border-radius: 20px;
+    left: -170px;
+    bottom: -1px;
+    position: absolute;
+    margin-right: 30px;
+}
+
+.phone-keyboard-display{
+    width: 255px;
+    height: 480px;
+    border-radius: 20px;
+    background: #F16718; 
+    margin: 0px 0px 0px 110px;
+    overflow: hidden;
+}
+
+
+.phone-keyboard-display img{
+    width: 100%;
+    height: 100%;
+    opacity: 20%;
+}
+
+.glass-keyboard img{
+    width: 445px;
+    height: 480px;
+    border-radius: 20px;
+    margin: 0px 0px 0px 30px;
+}
+
+.wireles-keyboard-text{
+    /* border: solid black 1px; */
+    width: 400px;
+    height: 400px;
+    margin-top: 70px;
+}
+
+.wireles-keyboard-text .mechnical{
+    font-family: 'Barlow' , sans-serif;
+    font-size: 50px;
+    color: #162542;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 50px;
+}
+
+.wireles-keyboard-text p{
+    font-family: 'Barlow' , sans-serif;
+    font-size: 16px;
+    color: #7B8BAD;
+    margin: 30px 0px 0px 50px;
+}
+
+
+/* DESCRIPTION */
+
+.description{
+    
 }
 
 
