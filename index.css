@@ -247,7 +247,6 @@
 
 /* WIRELESS KEYBOARD */
 .wireless-bluetooth-container{
-    background-color: blue;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -273,7 +272,7 @@
     height: 27px;
 }
 
-.wireless-bluetooth h1{
+.wireless-bluetooth-container h1{
     width: 255px;
     height: 56px;
     font-family: 'Barlow';
@@ -283,9 +282,10 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
+    margin: 48px 0 0 0;
 }
 
-.wireless-bluetooth p{
+.wireless-bluetooth-container p{
     width: 255px;
     height: 130px;
     font-family: 'Barlow';
@@ -294,5 +294,6 @@
     font-size: 16px;
     line-height: 26px;
     color: #7B8BAD;
+    margin: 24px 0 0 0;
 
 }
