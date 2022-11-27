@@ -15,98 +15,11 @@ body {
 }
 
 
-/* TABLET DESIGN */
-@media (min-width: 768px) and (max-width: 979px) {
-  .whole-body{
-    padding: 0.75rem;
-    overflow-x: hidden;
-  }
 
-  nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  #navbar-button{
-    background-color: #E8EFF2;
-    color: #162542;
-    font-weight: 900;
-    font-size: 16px;
-    text-transform: uppercase;
-    border-radius: 0.6rem;
-    padding: 0.6rem;
-    border: none;
-  }
-
-  #navbar-button:hover{
-    background-color: #162542;
-    color: #ffffff;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-
-  .header-div-container{
-    margin: 64px 0 0 0;
-  }
-
-  .header-div-container h1{
-    width: 21rem;
-    height: 6rem;
-    font-weight: 900px;
-    font-size: 48px;
-    line-height: 48px;
-    color: #162542;
-  }
-
-  .header-div-container p{
-    color: #7B8BAD;
-    margin: 32px 0px 0px 0;
-    font-size: 16px;
-    font-weight: 78px;
-    line-height: 1.6rem;
-  }
-
-  .pre-order-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: #7B8BAD;
-    margin: 4rem 0 0 0;
-  }
-
-  .pre-order-container #keyboard-pre-order-now{
-    background-color: #F16718;
-    border-radius: 0.5rem;
-    width: 150px;
-    height: 48px;
-    font-weight: 700;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    padding: 0.2rem;
-    color: #ffffff;
-    border: none;
-}
-
-#keyboard-pre-order-now:hover{
-  background-color: #FF9B62;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-#keyboard-pre-order-now:hover{
-  background-color: #FF9B62;
-  border-radius: 8px;
-  cursor: pointer;
-}
-  
-  
-}
 
 
 /* MOBILE DESIGN */
-@media (max-width: 576px){
+@media (max-width: 576px) and (max-width: 767px){
   .whole-body{
     padding: 0.75rem;
     overflow-x: hidden;
@@ -127,14 +40,22 @@ body {
     border-radius: 0.6rem;
     padding: 0.6rem;
     border: none;
+    -webkit-transition-duration: 0.4;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
 
-  #navbar-button:hover{
-    background-color: #162542;
+  #navbar-button::after{
+    background: #162542;
     color: #ffffff;
     border-radius: 8px;
-    cursor: pointer;
+    transition: all 0.8s;
+    /* cursor: pointer */
+  }
 
+  #navbar-button:active::after{
+    opacity: 1;
+    transition: 0;
   }
 
   .header-div-container{
@@ -175,10 +96,9 @@ body {
     border: none;
   }
 
-  #keyboard-pre-order-now:hover{
+  #keyboard-pre-order-now{
     background-color: #FF9B62;
     border-radius: 8px;
-    cursor: pointer;
   }
 
   .keyboard{
@@ -190,6 +110,7 @@ body {
     border-radius: 20px;
     margin: 64px 0px 0px 0px;
   }
+
 
   .about .image-wrapper{
     display: flex;
