@@ -1,5 +1,5 @@
 /* MOBILE DESIGN */
-@media (max-width: 576px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 767px){
     .whole-body{
       padding: 0.75rem;
       overflow-x: hidden;
