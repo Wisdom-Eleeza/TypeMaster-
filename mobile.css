@@ -1,5 +1,5 @@
 /* MOBILE DESIGN */
-@media (min-width: 576px) and (max-width: 767px){
+@media (max-width: 576px) and (max-width: 767px){
     .whole-body{
       padding: 0.75rem;
       overflow-x: hidden;
@@ -38,17 +38,22 @@
       transition: 0;
     }
   
-    .header-div-container{
-      margin: 64px 0 0 0;
-    }
+    .header-div-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 62px 0 0 0px;
+        /* border: solid 1px black; */
+      }
+    
   
-    .header-div-container h1{
+      .title-typemaster h1{
       font-weight: 900;
       font-size: 3rem;
       color: #162542;
     }
   
-    .header-div-container p{
+    .title-typemaster p{
       color: #7B8BAD;
       margin: 32px 0px 0px 0;
       line-height: 1.6rem;
@@ -111,7 +116,6 @@
       width: 8rem;
       height: 12rem;
       opacity: 40%;
-      margin: 24px 0px 24px 0px;
   }
   
   .about #glass-keyboard{
