@@ -39,7 +39,8 @@ body {
   }
 
   .header-div-container{
-    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
   }
 
   .title-typemaster{
@@ -164,6 +165,12 @@ body {
     text-transform: uppercase;
     color: #162542;
     margin: 48px 0px 0px 0px;
+  }
+
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   p{
