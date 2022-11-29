@@ -44,7 +44,7 @@ body {
   }
 
   .title-typemaster{
-    border: solid 1px black;
+   
   }
 
   .title-typemaster h1{
@@ -79,12 +79,13 @@ body {
     color: #7B8BAD;
   }
 
-  .keyboard #main-keyboard{
-
+  .keyboard #main-keyboard {
+    width: 540px;
+    height: 480px;
+    border-radius: 16px;
   }
-
-  /* Phone-keyboard */
-
+  
+  /* PHONE-KEYBOARD */
   .about{
     display: flex;
     
@@ -189,7 +190,6 @@ body {
   footer{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 272px;
     height: 26px;
     font-family: 'Barlow';
@@ -198,5 +198,6 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #7B8BAD;
+    margin: 96px 0 0 0;
   }
 }
