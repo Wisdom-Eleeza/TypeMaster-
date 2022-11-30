@@ -25,6 +25,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 0.8s;
+    
   }
 
   #navbar-button{
@@ -36,6 +38,12 @@ body {
     border-radius: 0.6rem;
     padding: 0.6rem;
     border: none;
+    cursor: pointer;
+  }
+
+  #navbar-button:hover{
+    background-color: #162542;
+    color: white;
   }
 
   .header-div-container{
@@ -91,6 +99,11 @@ body {
     border-radius: 0.6rem;
     padding: 0.6rem;
     border: none;
+    cursor: pointer;
+  }
+
+  #keyboard-pre-order-now:hover{
+    background-color: #FF9B62;
   }
   
   #release{
