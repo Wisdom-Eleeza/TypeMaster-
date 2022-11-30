@@ -34,12 +34,6 @@
     color: #ffffff;
     border-radius: 8px;
     transition: all 0.8s;
-    cursor: pointer;
-  }
-
-  #navbar-button:active::after {
-    opacity: 1;
-    transition: 0;
   }
 
   .header-div-container {
@@ -48,10 +42,6 @@
     align-items: center;
     margin: 62px 0 0 0px;
     /* border: solid 1px black; */
-  }
-
-  .title-typemaster{
-    border: solid 1px black;
   }
 
   .title-typemaster h1 {
@@ -86,8 +76,16 @@
     margin: 39px 0 0 0;
   }
 
-  .header-div-container{
-    /* border: solid 1px black; */
+  .keyboard-pre-order-now{
+    width: 445px;
+    height: 312px;
+  }
+
+  #main-keyboard{
+    width: 540px;
+    height: 480px;
+    border-radius: 16px;
+    margin: 0px 0px 0px 125px;;
   }
 
   .pre-order-container #keyboard-pre-order-now {
@@ -109,6 +107,11 @@
     height: 26rem;
     background: #d8d8d8;
     border-radius: 20px;
+  }
+
+  .cards-container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
   }
 
   .about .image-wrapper {
@@ -165,7 +168,6 @@
     margin: 0 0 0 39px;
   }
 
-  
   .icon-container {
     display: flex;
     justify-content: center;

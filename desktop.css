@@ -51,6 +51,11 @@ body {
     height: 312px;
   }
 
+    #main-keyboard {
+    width: 540px;
+    height: 480px;
+    border-radius: 16px;
+  }
   
   .title-typemaster h1{
     width: 342px;
@@ -163,21 +168,14 @@ body {
   }
 
   .rectangle-icons .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F16718;
     width: 65px;
     height: 65px;
     border-radius: 16px;
-  }
-
-  .icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50% 0% 0% 0%;
-  }
-
-  .icon img{
-    margin: 50% 50% 50% 50%;
+    margin: 168px 0 0 0;
   }
 
   .rectangle-icons-h3{
