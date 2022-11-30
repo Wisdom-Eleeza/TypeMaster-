@@ -39,11 +39,7 @@
     }
   
     .header-div-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 62px 0 0 0px;
-        /* border: solid 1px black; */
+        margin: 62px 24px 0 0px;
       }
     
   
@@ -86,10 +82,7 @@
       border-radius: 8px;
     }
   
-    .keyboard{
-    }
-  
-    .keyboard #main-keyboard{
+     #main-keyboard{
       width: 372px;
       height: 331px;
       border-radius: 20px;
@@ -165,6 +158,8 @@
   }
   
   .rectangle-icons-h3{
+    width: 255px;
+    height: 56px;
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
@@ -184,7 +179,13 @@
   }
   
   footer{
-    
+    display: flex;
+    justify-content: center;
+    color: #7b8bad;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 96px 0 0 0;
   }
   
   

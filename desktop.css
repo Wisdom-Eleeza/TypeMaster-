@@ -56,7 +56,7 @@ body {
     height: 480px;
     border-radius: 16px;
   }
-  
+
   .title-typemaster h1{
     width: 342px;
     height: 96px;
@@ -215,14 +215,10 @@ body {
   footer{
     display: flex;
     justify-content: center;
-    width: 272px;
-    height: 26px;
-    font-family: 'Barlow';
+    color: #7b8bad;
+    line-height: 26px;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
-    color: #7B8BAD;
     margin: 96px 0 0 0;
   }
 }
