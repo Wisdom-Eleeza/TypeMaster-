@@ -3,7 +3,7 @@
 
 
 /* TABLET */
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 577px) and (max-width: 979px) {
   .whole-body {
     padding: 0.75rem;
     overflow: hidden;
