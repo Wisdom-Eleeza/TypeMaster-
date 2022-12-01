@@ -10,13 +10,15 @@ body {
   font-weight: 500;
   margin: 1.5rem;
   position: relative;
-  z-index: -1;
+  z-index: auto;
   overflow-x: hidden;
 }
 
 
 @media (min-width: 980px) and (max-width: 1440px) {
   .whole-body{
+    display: block;
+    justify-content: center;;
     padding: 0.75rem;
     overflow-x: hidden;
   }
@@ -32,13 +34,15 @@ body {
   #navbar-button{
     background-color: #E8EFF2;
     color: #162542;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
     border-radius: 0.6rem;
     padding: 0.6rem;
     border: none;
     cursor: pointer;
+    width: 175px;
+    height: 58px;
   }
 
   #navbar-button:hover{
@@ -65,6 +69,11 @@ body {
     border-radius: 16px;
   }
 
+  .title-container{
+    width: 445px;
+    height: 312px;
+  }
+
   .title-typemaster h1{
     width: 342px;
     height: 96px;
@@ -87,19 +96,22 @@ body {
   .pre-order-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 42px 0px 0px 0px;
   }
 
    #keyboard-pre-order-now{
     background-color: #F16718;
     color: #ffffff;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
     border-radius: 0.6rem;
     padding: 0.6rem;
     border: none;
     cursor: pointer;
+    width: 175px;
+    height: 58px;
   }
 
   #keyboard-pre-order-now:hover{
@@ -109,7 +121,6 @@ body {
   #release{
     height: 11.5px;
     color: #7B8BAD;
-    justify-self: center;
   }
 
   .keyboard #main-keyboard {
