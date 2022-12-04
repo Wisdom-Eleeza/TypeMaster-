@@ -3,35 +3,26 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
+  width: 1110px;
   font-family: 'Barlow', sans-serif;
   font-weight: 500;
-  margin: 1.5rem;
-  position: relative;
-  z-index: auto;
+  margin: 0px 0px 0px 125px;
   overflow-x: hidden;
 }
-
-
-@media (min-width: 980px) and (max-width: 1440px) {
-  .whole-body{
-    display: block;
-    justify-content: center;;
-    padding: 0.75rem;
-    overflow-x: hidden;
-  }
 
   nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: 0.8s;
-    
   }
 
   #navbar-button{
+    align-items: center;
     background-color: #E8EFF2;
     color: #162542;
     font-weight: 700;
@@ -39,10 +30,11 @@ body {
     text-transform: uppercase;
     border-radius: 0.6rem;
     padding: 0.6rem;
-    border: none;
     cursor: pointer;
     width: 175px;
-    height: 58px;
+    height: 48px;
+    margin: 57px 0px 50px 0px;
+    border: none;
   }
 
   #navbar-button:hover{
@@ -55,7 +47,7 @@ body {
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     align-items: center;
-    margin: 83px 0px 0px 0px;
+    margin: 43px 0px 0px 0px;
   }
 
   .title-typemaster{
@@ -67,6 +59,7 @@ body {
     width: 540px;
     height: 480px;
     border-radius: 16px;
+    margin: 0px 0px 0px 200px;
   }
 
   .title-container{
@@ -98,6 +91,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 42px 0px 0px 0px;
+    border: none;
   }
 
    #keyboard-pre-order-now{
@@ -127,13 +121,15 @@ body {
     width: 540px;
     height: 480px;
     border-radius: 16px;
-    margin: 0pc 0px 0px 0px;
+    margin: 0px 0px 0px 50px;
   }
   
-  /* PHONE-KEYBOARD */
+ 
+
+
+
   .about{
     display: flex;
-    
   }
 
   #about-h2{
@@ -199,7 +195,7 @@ body {
     width: 65px;
     height: 65px;
     border-radius: 16px;
-    margin: 168px 0 0 0;
+    margin: 68px 0 0 0;
   }
 
   .rectangle-icons-h3{
@@ -215,7 +211,7 @@ body {
     margin: 48px 0px 0px 0px;
   }
 
-  p{
+  .rectangle-iconsp{
     width: 255px;
     height: 130px;
     font-family: 'Barlow';
@@ -227,12 +223,24 @@ body {
     margin: 24px 0px 0px 0px;
   }
 
-  .empty-box {
+  .empty-box1 {
     width: 255px;
-    height: 240;
+    height: 240px;
     border-radius: 8px;
-    background-color: #7B8BAD;
+    background-color: #E8EFF2;
     position: absolute;
+    top: 950px;
+    left: -160px;
+  }
+
+  .empty-box2{
+    width: 255px;
+    height: 240px;
+    border-radius: 8px;
+    background-color: #E8EFF2;
+    position: absolute;
+    top: 199px;
+    left: 1260px;
   }
   
 
@@ -243,6 +251,6 @@ body {
     line-height: 26px;
     font-style: normal;
     font-weight: 700;
-    margin: 96px 0 0 0;
+    margin: 196px 0 0 0;
   }
-}
+
