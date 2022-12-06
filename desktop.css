@@ -64,6 +64,13 @@ button {
 .header-container {
   display: flex;
   justify-content: space-between;
+  margin-block: 40px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title-typemaster {
@@ -236,12 +243,12 @@ button {
 
 .empty-box1 {
   right: -10rem;
-  top: 5%;
+  top: 7.5%;
 }
 
 .empty-box2 {
   left: -10rem;
-  bottom: 37%;
+  bottom: 36%;
 }
 
 footer {
