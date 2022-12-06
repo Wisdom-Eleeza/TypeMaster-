@@ -1,11 +1,8 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap");
 
-
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .whole-body {
     width: 95vw;
-    background: red;
     margin-inline: auto;
   }
 
@@ -16,8 +13,8 @@
     transition: 0.8s;
     padding-block: 1rem;
   }
-  
-    button {
+
+  button {
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
@@ -66,7 +63,6 @@
     border-radius: 20px;
     overflow: hidden;
     margin: 0px 0px 0px 20px;
-    
   }
 
   .keyboard img {
@@ -88,12 +84,13 @@
   #release {
     background: none;
     color: var(--color-gray);
-  } 
+  }
 
   .about {
     width: 100%;
     max-height: 480px;
     display: flex;
+    flex-wrap: wrap;
     margin-block: 2rem;
   }
 
@@ -107,14 +104,14 @@
     overflow: hidden;
     border-radius: 10px;
     background: var(--color-orange);
-  } 
+  }
 
   #phone-keyboard img {
     width: 100%;
     height: 100%;
     opacity: 0.75;
     mix-blend-mode: multiply;
-  } 
+  }
 
   .image-wrapper #glass-keyboard {
     border-radius: 10px;
@@ -122,7 +119,7 @@
     height: auto;
     width: 445px;
     margin: 0px 0px 0px 24px;
-  } 
+  }
 
   #glass-keyboard img {
     width: 100%;
@@ -130,26 +127,51 @@
   }
 
   .about-text {
-    /* flex-wrap: wrap;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     gap: 1rem;
-    width: 16rem;
+    width: 50rem;
     height: 20rem;
-    margin: auto; */
-  } 
+  }
+
+  .about-text h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: var(--color-dark);
+    margin-block: 2rem;
+  }
+
+  .about-text p {
+    width: 398px;
+    height: 78px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--color-gray);
+  }
 
   .cards-container {
-    background: blue;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    /* display: flex;
+    flex-wrap: wrap; */
     gap: 1rem;
-    margin-bottom: 2rem;
-  } 
+    margin-block: 10rem;
+    width: 100%;
+    height: 100%;
+  }
 
   .rectangleContainer {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background: green;
+    flex-wrap: wrap;
     padding-block: 1rem;
   }
 
@@ -162,8 +184,7 @@
     justify-content: center;
     border-radius: 1rem;
   }
-
-  .rectangleContainer h3 {
+  */ .rectangleContainer h3 {
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
@@ -172,7 +193,8 @@
   }
 
   .rectangleContainer p {
-    font-family: "Barlow";
+    width: 281px;
+    height: 104px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -180,14 +202,18 @@
     color: var(--color-gray);
   }
 
+  .empty-box1,
+  .empty-box2 {
+    display: none;
+  }
+
   footer {
-    height: 8rem;
-    background: crimson;
-    margin-top: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .2rem;
+    gap: 0.2rem;
     color: var(--color-gray);
   }
 
@@ -195,5 +221,4 @@
     color: var(--color-dark);
     font-weight: bold;
   }
-
-} 
+}

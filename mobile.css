@@ -1,0 +1,219 @@
+@media (max-width: 567px) {
+  .whole-body {
+    width: 95vw;
+    margin-inline: auto;
+    overflow-x: hidden;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.8s;
+    padding-block: 1rem;
+  }
+
+  button {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    width: 175px;
+    height: 48px;
+    border: none;
+    transition: var(--transition);
+  }
+  #navbar-button {
+    align-items: center;
+    background-color: var(--color-light);
+    color: var(--color-dark);
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .title-typemaster {
+    width: 385px;
+    height: 312px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .title-typemaster h1 {
+    font-weight: 900;
+    font-size: 50px;
+    color: var(--color-dark);
+  }
+
+  .title-typemaster p {
+    color: var(--color-gray);
+  }
+
+  .keyboard {
+    max-width: 540px;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0px 0px 0px 7px;
+  }
+
+  .keyboard img {
+    width: 100%;
+  }
+
+  .pre-order-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .pre-order-container #keyboard-pre-order-now {
+    text-transform: uppercase;
+    background: var(--color-orange);
+    color: var(--color-white);
+  }
+
+  #release {
+    background: none;
+    color: var(--color-gray);
+  }
+
+  .about {
+    width: 100%;
+    max-height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-block: 2rem;
+  }
+
+  .image-wrapper {
+    display: flex;
+  }
+
+  .image-wrapper #phone-keyboard {
+    width: 129px;
+    height: 193px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--color-orange);
+  }
+
+  #phone-keyboard img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+  }
+
+  .image-wrapper #glass-keyboard {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 220px;
+    height: 193px;
+    margin: 0px 0px 0px 24px;
+  }
+
+  #glass-keyboard img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 1rem;
+    gap: 1rem;
+    width: 50rem;
+    height: 10rem;
+  }
+
+  .about-text h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: var(--color-dark);
+    margin-block: 2rem;
+  }
+
+  .about-text p {
+    text-align: center;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--color-gray);
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-block: 9rem;
+  }
+
+  .rectangleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-block: 1rem;
+  }
+
+  .icon {
+    width: 65px;
+    height: 65px;
+    background: var(--color-orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+  }
+
+  .rectangleContainer h3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: var(--color-dark);
+  }
+
+  .rectangleContainer p {
+    text-align: center;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--color-gray);
+  }
+
+  footer {
+    height: 8rem;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    color: var(--color-gray);
+  }
+
+  footer p {
+    color: var(--color-dark);
+    font-weight: bold;
+  }
+}
