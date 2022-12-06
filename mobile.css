@@ -2,7 +2,6 @@
   .whole-body {
     width: 95vw;
     margin-inline: auto;
-    overflow-x: hidden;
   }
 
   nav {
@@ -158,6 +157,8 @@
 
   .cards-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
     margin-block: 9rem;
