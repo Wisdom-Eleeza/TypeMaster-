@@ -1,7 +1,9 @@
 @media (max-width: 567px) {
   .whole-body {
-    width: 95vw;
-    margin-inline: auto;
+    width: 100vw;
+    background: black;
+    overflow: hidden;;
+    height: 100%;
   }
 
   nav {
@@ -9,17 +11,19 @@
     justify-content: space-between;
     align-items: center;
     transition: 0.8s;
-    padding-block: 1rem;
+    padding-block: 0.5rem;
+    width: 100%;
+    background: red;
   }
 
   button {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 9.5px;
     text-transform: uppercase;
-    border-radius: 0.6rem;
+    border-radius: 0.5rem;
     cursor: pointer;
-    width: 175px;
-    height: 48px;
+    width: 30%;
+    height: 30px;
     border: none;
     transition: var(--transition);
   }
@@ -27,6 +31,8 @@
     align-items: center;
     background-color: var(--color-light);
     color: var(--color-dark);
+    width: 30%;
+    height: 30px;
   }
 
   .header-container {
@@ -34,43 +40,42 @@
     flex-direction: column;
     justify-content: space-between;
   }
-
+ 
   .title-typemaster {
-    width: 385px;
-    height: 312px;
-    margin: auto;
+    width: 100%;
+    height: 286px;
+    /* margin: auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    /* gap: 2rem; */
+    background: blue;
+
   }
 
   .title-typemaster h1 {
     font-weight: 900;
-    font-size: 50px;
+    font-size: 48px;
     color: var(--color-dark);
+    width: 100%;
+    background: green;
   }
 
   .title-typemaster p {
-    color: var(--color-gray);
-  }
-
-  .keyboard {
-    max-width: 540px;
-    height: auto;
-    border-radius: 20px;
-    overflow: hidden;
-    margin: 0px 0px 0px 7px;
-  }
-
-  .keyboard img {
+    font-size: 16px;
+    line-height: 26px;
     width: 100%;
+    height: 100%;
+    color: var(--color-gray);
+    width: 100%;
+    background: pink;
+    margin: 0px 0px 30px 0px;
   }
 
   .pre-order-container {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    /* width: 90%; */
   }
 
   .pre-order-container #keyboard-pre-order-now {
@@ -84,16 +89,33 @@
     color: var(--color-gray);
   }
 
+  .keyboard {
+    width: 100%;
+    height: 331px;
+    border-radius: 20px;
+    margin-block: 2rem;
+    /* overflow: hidden; */
+  }
+
+  .keyboard img {
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    /* overflow: hidden; */
+  }
+
   .about {
     width: 100%;
     max-height: 480px;
     display: flex;
     flex-wrap: wrap;
-    margin-block: 2rem;
+    /* margin-block: 2rem; */
   }
 
   .image-wrapper {
     display: flex;
+    margin: 0px 30px 0px 0px;
+    background: white;
   }
 
   .image-wrapper #phone-keyboard {
@@ -102,6 +124,8 @@
     overflow: hidden;
     border-radius: 10px;
     background: var(--color-orange);
+    position: relative;
+    right: 5px;
   }
 
   #phone-keyboard img {
@@ -109,16 +133,17 @@
     height: 100%;
     opacity: 0.75;
     mix-blend-mode: multiply;
+    position:absolute;
   }
-
+  
   .image-wrapper #glass-keyboard {
     border-radius: 10px;
     overflow: hidden;
-    width: 220px;
+    width: 100%;
     height: 193px;
-    margin: 0px 0px 0px 24px;
+    margin: 0px 0px 0px 0px;
   }
-
+  
   #glass-keyboard img {
     width: 100%;
     height: 100%;
@@ -129,30 +154,29 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-block: 1rem;
-    gap: 1rem;
-    width: 50rem;
-    height: 10rem;
+    /* margin-block: 1rem; */
+    /* width: 50rem;
+    height: 10rem; */
   }
 
   .about-text h2 {
+    text-align: center;;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 36px;
     text-transform: uppercase;
     color: var(--color-dark);
-    margin-block: 2rem;
   }
 
   .about-text p {
     text-align: center;
-    font-family: "Barlow";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     color: var(--color-gray);
+    margin: 0px auto;
   }
 
   .cards-container {
@@ -161,7 +185,8 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-block: 9rem;
+    margin-block: 3rem;
+    background: green;
   }
 
   .rectangleContainer {
@@ -172,6 +197,8 @@
     gap: 2rem;
     flex-wrap: wrap;
     padding-block: 1rem;
+    width: 100%;
+    background: red;
   }
 
   .icon {
@@ -203,18 +230,29 @@
     color: var(--color-gray);
   }
 
+  .empty-box1 {
+    display: none;
+  }
+  
+  .empty-box2 {
+    display: none;  
+  }
+
   footer {
     height: 8rem;
-    margin-top: 5rem;
+    margin-top: 0rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.2rem;
+    gap: 0.1rem;
     color: var(--color-gray);
+    width: 100%;
+    background: crimson;;
   }
 
   footer p {
     color: var(--color-dark);
     font-weight: bold;
-  }
+  } 
 }
+

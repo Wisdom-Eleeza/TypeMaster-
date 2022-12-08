@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap");
 
 @media (max-width: 768px) {
   .whole-body {
-    width: 95vw;
-    margin-inline: auto;
+    width: 100vw;
+    /* margin-inline: auto; */
+    background: black;
   }
 
   nav {
@@ -12,6 +12,8 @@
     align-items: center;
     transition: 0.8s;
     padding-block: 1rem;
+    padding-inline: 1rem;
+    background-color: red;
   }
 
   button {
@@ -20,7 +22,7 @@
     text-transform: uppercase;
     border-radius: 0.6rem;
     cursor: pointer;
-    width: 175px;
+    width: 25%;
     height: 48px;
     border: none;
     transition: var(--transition);
@@ -30,21 +32,26 @@
     align-items: center;
     background-color: var(--color-light);
     color: var(--color-dark);
+    width: 30%
   }
 
   .header-container {
     display: flex;
     justify-content: space-between;
+    background: green;  
+    margin-block: 5%;
+    padding-inline: 1rem;
   }
 
   .title-typemaster {
-    width: 385px;
+    width: 100%;
     height: 312px;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+    
   }
 
   .title-typemaster h1 {
@@ -63,10 +70,12 @@
     border-radius: 20px;
     overflow: hidden;
     margin: 0px 0px 0px 20px;
+    padding-inline: 3rem;
   }
 
   .keyboard img {
     width: 100%;
+    padding-inline: 3rem;
   }
 
   .pre-order-container {
@@ -159,8 +168,6 @@
   .cards-container {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    /* display: flex;
-    flex-wrap: wrap; */
     gap: 1rem;
     margin-block: 10rem;
     width: 100%;
@@ -184,7 +191,7 @@
     justify-content: center;
     border-radius: 1rem;
   }
-  */ .rectangleContainer h3 {
+  .rectangleContainer h3 {
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
