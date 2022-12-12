@@ -2,7 +2,7 @@
   .whole-body {
     width: 100vw;
     /* margin-inline: auto; */
-    background: black;
+    /* background: black; */
   }
 
   nav {
@@ -12,7 +12,7 @@
     transition: 0.8s;
     padding-block: 1rem;
     padding-inline: 1rem;
-    background-color: red;
+    /* background-color: red; */
   }
 
   button {
@@ -37,7 +37,7 @@
   .header-container {
     display: flex;
     justify-content: space-between;
-    background: green;
+    /* background: green; */
     margin-block: 5%;
     padding-inline: 1rem;
   }
@@ -63,22 +63,23 @@
   }
 
   .keyboard {
-    max-width: 540px;
-    height: auto;
+    width: 100%;
     border-radius: 20px;
-    overflow: hidden;
     margin: 0px 0px 0px 20px;
-    padding-inline: 3rem;
+    padding-inline: 2rem;
+    background: none;
   }
 
   .keyboard img {
-    width: 100%;
-    padding-inline: 3rem;
+    width: 540px;
+    border-radius: 20px;
+    height: auto;
   }
 
   .pre-order-container {
     display: flex;
     justify-content: space-between;
+    align-items: space-between;
     width: 90%;
   }
 
@@ -86,11 +87,17 @@
     text-transform: uppercase;
     background: var(--color-orange);
     color: var(--color-white);
+    width: 70%;
+    font-size: 15px;
+    padding-inline: 2px;
   }
 
   #release {
     background: none;
     color: var(--color-gray);
+    width: 70%;
+    font-size: 15px;
+    padding-inline: 2px;
   }
 
   .about {
@@ -166,7 +173,7 @@
   .cards-container {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    gap: 1rem;
+    /* gap: 1rem; */
     margin-block: 10rem;
     width: 100%;
     height: 100%;

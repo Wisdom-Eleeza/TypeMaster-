@@ -1,7 +1,7 @@
 @media (max-width: 567px) {
   .whole-body {
     width: 100vw;
-    background: black;
+    /* background: black; */
     overflow: hidden;
     height: 100%;
   }
@@ -13,7 +13,7 @@
     transition: 0.8s;
     padding-block: 0.5rem;
     width: 100%;
-    background: red;
+    /* background: red; */
   }
 
   button {
@@ -49,7 +49,7 @@
     flex-direction: column;
     justify-content: center;
     /* gap: 2rem; */
-    background: blue;
+    /* background: blue; */
   }
 
   .title-typemaster h1 {
@@ -57,7 +57,7 @@
     font-size: 48px;
     color: var(--color-dark);
     width: 100%;
-    background: green;
+    /* background: green; */
   }
 
   .title-typemaster p {
@@ -67,7 +67,7 @@
     height: 100%;
     color: var(--color-gray);
     width: 100%;
-    background: pink;
+    /* background: pink; */
     margin: 0px 0px 30px 0px;
   }
 
@@ -89,7 +89,7 @@
   }
 
   .keyboard {
-    width: 372px;
+    width: 100%;
     height: 331px;
     border-radius: 20px;
     margin-block: 2rem;
@@ -97,15 +97,15 @@
   }
 
   .keyboard img {
-    width: 100%;
+    width: 375px;
     border-radius: 20px;
-    position: relative;
+    /* position: relative; */
     /* overflow: hidden; */
   }
 
   .about {
     width: 100%;
-    max-height: 480px;
+    /* max-height: 480px; */
     display: flex;
     flex-wrap: wrap;
     /* margin-block: 2rem; */
@@ -114,7 +114,7 @@
   .image-wrapper {
     display: flex;
     margin: 0px 30px 0px 0px;
-    background: white;
+    /* background: white; */
   }
 
   .image-wrapper #phone-keyboard {
@@ -185,7 +185,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     margin-block: 3rem;
-    background: green;
+    /* background: green; */
     width: 100%;
   }
 
@@ -198,7 +198,7 @@
     flex-wrap: wrap;
     padding-block: 1rem;
     width: 100%;
-    background: red;
+    /* background: red; */
   }
 
   .icon {
@@ -247,7 +247,7 @@
     gap: 0.1rem;
     color: var(--color-gray);
     width: 100%;
-    background: crimson;
+    /* background: crimson; */
   }
 
   footer p {

@@ -23,6 +23,7 @@ body {
   overflow-x: hidden;
   font-style: normal;
   position: relative;
+  margin-inline: auto;
 }
 
 .whole-body {
